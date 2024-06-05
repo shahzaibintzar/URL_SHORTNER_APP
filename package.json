@@ -1,0 +1,46 @@
+{
+  "name": "urlshortner",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@mui/material-nextjs": "^5.15.11",
+    "@prisma/client": "^5.12.1",
+    "@reduxjs/toolkit": "^2.2.3",
+    "@types/bcrypt": "^5.0.2",
+    "@types/qrcode.react": "^1.0.5",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "emailjs-com": "^3.2.0",
+    "mongodb-typescript": "^3.0.0",
+    "next": "14.1.4",
+    "next-auth": "^4.24.7",
+    "qrcode.react": "^3.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-redux": "^9.1.1",
+    "react-spinners": "^0.13.8",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/shortid": "^0.0.32",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "prisma": "^5.12.1",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
